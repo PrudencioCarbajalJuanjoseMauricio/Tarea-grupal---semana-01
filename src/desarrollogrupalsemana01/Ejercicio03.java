@@ -12,6 +12,9 @@ import java.util.Scanner;
 public class Ejercicio03 {
     public static void main(String[] args){
         double monto_total, monto_IGV, monto_original;
+        Scanner dinero = new Scanner(System.in);
+        System.out.println("Bienvenido!");
+        System.out.println("Por favor ingrese su monto total:");
         
         
     
