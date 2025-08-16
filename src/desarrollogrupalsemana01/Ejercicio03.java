@@ -17,6 +17,8 @@ public class Ejercicio03 {
         System.out.println("Por favor ingrese su monto total:");
         System.out.print("S/. ");
         monto_total = dinero.nextDouble();
+        monto_IGV = monto_total/1.18;
+        monto_original = monto_total - monto_IGV;
         
         
     
