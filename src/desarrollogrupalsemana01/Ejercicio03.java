@@ -10,5 +10,10 @@ package desarrollogrupalsemana01;
  */
 import java.util.Scanner;
 public class Ejercicio03 {
+    public static void main(String[] args){
+        double monto_total, monto_IGV, monto_original;
+        
+        
     
+    }
 }
