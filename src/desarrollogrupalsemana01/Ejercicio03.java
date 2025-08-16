@@ -19,8 +19,8 @@ public class Ejercicio03 {
         monto_total = dinero.nextDouble();
         monto_original = monto_total/1.18;
         monto_IGV = monto_total - monto_original;
-        System.out.println("Su monto base es S/. " + monto_original);
-        System.out.println("El IGV es de S/. " + monto_IGV);
-        
+        System.out.printf("Su monto base es S/. %.2f\n" , monto_original);
+        System.out.printf("El IGV es de S/. %.2f\n" , monto_IGV);
+      
     }
 }
