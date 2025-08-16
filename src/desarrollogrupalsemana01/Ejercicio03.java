@@ -15,6 +15,8 @@ public class Ejercicio03 {
         Scanner dinero = new Scanner(System.in);
         System.out.println("Bienvenido!");
         System.out.println("Por favor ingrese su monto total:");
+        System.out.print("S/. ");
+        monto_total = dinero.nextDouble();
         
         
     
